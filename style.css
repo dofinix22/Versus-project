@@ -201,3 +201,45 @@ h2 {
 	padding-bottom: 37px;
 	
 }
+/* MEDIA QUERIES */
+@media(max-width: 800px) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 18px;
+    }
+    .banner a {
+        font-size: 11px;
+    }
+    li {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 21px;
+    }
+    .image-box img {
+        width: calc(100% / 2 - 20px / 2);
+    }
+}
+@media(max-width: 450px) {
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .banner a {
+        font-size: 10px;
+        padding: 8px 20px;
+    }
+    ul {
+        gap: 15px;
+    }
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    .image-box img {
+        width: 100%;
+    }
+}
